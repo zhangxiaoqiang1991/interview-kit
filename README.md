@@ -1,6 +1,8 @@
-# 面试准备：从 JD 到高命中率答案
+# 从 JD 到 Offer
 
-> 大多数人的面试准备，80% 时间花在了不会考的地方。这套方法论让你把准备时间精准分配到面试官真正要验证的能力上。
+> **手里只有一份 JD，怎么把面试命中率提到最高？**
+>
+> 大多数人的面试准备，80% 时间花在了不会考的地方。这套方法论让你在极其有限的信息里，精准定位面试官真正要验证的能力，把每一分钟准备时间花在刀刃上。
 
 ---
 
@@ -426,17 +428,17 @@ JD 前三项跑这个三层 — #1 三层全准备，#2 两层，#3 一层。总
 
 ```bash
 # 克隆仓库
-git clone https://github.com/zhangxiaoqiang1991/interview-kit.git
+git clone https://github.com/zhangxiaoqiang1991/jd-to-offer.git
 
 # Claude Code 用户：复制模板到 CLAUDE.md（或追加到已有配置后面）
-cat interview-kit/template/interview-prep.template.md >> ~/CLAUDE.md
+cat jd-to-offer/template/interview-prep.template.md >> ~/CLAUDE.md
 ```
 
 ### Cursor / Windsurf 用户
 
 ```bash
-cp interview-kit/template/interview-prep.template.md .cursorrules    # Cursor
-cp interview-kit/template/interview-prep.template.md .windsurfrules  # Windsurf
+cp jd-to-offer/template/interview-prep.template.md .cursorrules    # Cursor
+cp jd-to-offer/template/interview-prep.template.md .windsurfrules  # Windsurf
 ```
 
 装好之后，把 JD 贴给 AI，它自动按九步法输出准备文档。
@@ -447,7 +449,7 @@ cp interview-kit/template/interview-prep.template.md .windsurfrules  # Windsurf
 
 这个仓库还在持续打磨中。如果你有使用反馈、有坑、有改进建议，或者你想贡献你自己的案例：
 
-- **提 Issue**：直接在仓库 [Issues](https://github.com/zhangxiaoqiang1991/interview-kit/issues) 页面反馈
+- **提 Issue**：直接在仓库 [Issues](https://github.com/zhangxiaoqiang1991/jd-to-offer/issues) 页面反馈
 - **加微信**：qianggegood123（欢迎多反馈，好及时迭代，祝你面试成功！）
 
 如果你用这套方法拿下了面试，或者踩了坑发现哪里不对，都欢迎告诉我——这些反馈比 star 值钱。
