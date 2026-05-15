@@ -69,11 +69,19 @@
 一家新能源车企在招 AI 内容岗。JD 前四条：
 
 ```
+职责：
 #1: AI 内容生产体系搭建 — 用 AI 提升内容效率
 #2: 内容策划与品牌传播 — 理解车企的内容需求
 #3: 跨部门协作
 #4: 危机内容应对
+
+要求：
+1. 3 年以上内容/传播经验，汽车行业背景优先
+2. 熟悉 AI 工具在内容生产中的应用
+3. 有品牌公关或危机传播处理经验优先
 ```
+
+**注意那条「汽车行业背景优先」。** 这就是典型的隐性硬门槛。JD 上写「优先」，但实际可能等于「必须」。
 
 **一般人怎么准备：** 花大力气准备 #1 — 怎么用 AI 写文章、搭工作流、提效率。
 
@@ -118,7 +126,19 @@
 
 ---
 
-好了，看完三个案例，你应该有个感觉了。下面是完整的方法论。
+### 更多案例
+
+上面三个案例展示了最常见的三种坑：权重分配、隐性门槛、赛道判断。更多案例见 `examples/` 目录（共 8 个），覆盖不同行业和公司阶段：
+
+- [跨境电商运营总监](examples/case-02-ecommerce-ops.md) — 国内电商转跨境
+- [新能源车企品牌经理](examples/case-03-ev-brand.md) — 互联网转制造业
+- [AI 教育产品经理](examples/case-04-ai-edtech-pm.md) — 出行平台转教育
+- [金融科技风控分析师](examples/case-05-fintech-risk.md) — 推荐系统转风控
+- [某金融科技 AI 培训师](examples/case-08-yixin-ai-trainer.md) — 岗位名称不等于工作内容
+
+---
+
+好了，感受完案例，下面是完整的方法论。
 
 ---
 
@@ -134,7 +154,7 @@
 
 **复制粘贴的 JD：** 全是形容词 — 「优秀的沟通能力」「积极主动的心态」。这种来自 HR 模板库，排序没有信息量。需要找人问清楚岗位的真实重点。
 
-> X **做完这一步，确认：** 这份 JD 是认真写的，可以直接往下走。如果不是，先去问了真实重点再回来。
+> X **做完这一步，确认：** 你数出了几条 JD 用「动词 + 产出」写的。如果只有 1-2 条，剩下全是形容词，直接跳到第二步去问真实重点，不用在这份 JD 上费劲解码。
 
 ---
 
@@ -382,4 +402,56 @@ JD 前三项跑这个三层 — #1 三层全准备，#2 两层，#3 一层。总
 
 ---
 
-[更多案例（共 8 个）见 examples/ 目录](examples/)
+---
+
+## 一键安装到你的 AI 工具
+
+把这个 skill 安装到 Claude Code、Cursor 等工具里，下次拿到 JD 直接贴给 AI 就行：
+
+### 安装命令（Claude Code）
+
+```bash
+# 克隆仓库
+git clone https://github.com/zhangxiaoqiang1991/interview-kit.git
+
+# Claude Code 用户：复制模板到 CLAUDE.md（或追加到已有配置后面）
+cat interview-kit/template/interview-prep.template.md >> ~/CLAUDE.md
+```
+
+### Cursor / Windsurf 用户
+
+```bash
+cp interview-kit/template/interview-prep.template.md .cursorrules    # Cursor
+cp interview-kit/template/interview-prep.template.md .windsurfrules  # Windsurf
+```
+
+装好之后，把 JD 贴给 AI，它自动按九步法输出准备文档。
+
+---
+
+## 反馈 & 帮助迭代
+
+这个仓库还在持续打磨中。如果你有使用反馈、有坑、有改进建议，或者你想贡献你自己的案例：
+
+- **提 Issue**：直接在仓库 [Issues](https://github.com/zhangxiaoqiang1991/interview-kit/issues) 页面反馈
+- **加微信**：qianggegood123（直接说面试反馈，不客套）
+
+如果你用这套方法拿下了面试，或者踩了坑发现哪里不对，都欢迎告诉我——这些反馈比 star 值钱。
+
+---
+
+## 关于我
+
+**大厂转型人强哥**（全网同名）
+
+河北邯郸人，曾武汉求学，现居北京。曾就职腾讯、字节跳动。目前负责 AI + 内容增长、产品运营。关注以下三方面的机会，欢迎交流 / 围观朋友圈：
+
+1. **AI 内容运营**：从战略、策略到执行的内容增长
+2. **AI 培训 / 布道**：帮团队真正用好 AI，不只是上个课
+3. **AI 内部提效**：搭建工具流，把 AI 落地到业务流程里
+
+- X 微信：qianggegood123
+- X 小红书：[强哥 @andyxqzhang](https://www.xiaohongshu.com/user/profile/617395d8000000001f0362a3)
+- X Twitter：[@andyxqzhang001](https://x.com/andyxqzhang001)
+
+[更多案例（共 8 个）见 examples/](examples/)
